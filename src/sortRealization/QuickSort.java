@@ -6,7 +6,7 @@ public class QuickSort implements SortInterface {
     public void sort(double[] array){
         quickSort(array,0,array.length-1);
     }
-
+    //еще почитать
     private void quickSort(double[] array, int l, int r){
         int left = l;
         int right = r;

@@ -7,10 +7,10 @@ public class Tests {
 
     public static void main(String[] args) {
 
-        double[] array = new double[50000];
-        double[] array2 = new double[50000];
-        double[] array3 = new double[50000];
-        double[] array4 = new double[50000];
+        double[] array = new double[1000000];
+        double[] array2 = new double[1000000];
+        double[] array3 = new double[1000000];
+        double[] array4 = new double[1000000];
 
         BubbleSort bubbleSort = new BubbleSort();
         MergeSort mergeSort = new MergeSort();
